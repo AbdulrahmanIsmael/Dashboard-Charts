@@ -8,6 +8,16 @@
   --color-primary: #045946;
 }
 
+@layer components {
+  .btn {
+    @apply cursor-pointer px-3 py-2 rounded-md font-semibold text-white bg-primary transition;
+  }
+
+  .active-btn {
+    @apply cursor-pointer px-3 py-2 rounded-md font-semibold bg-white text-primary border border-primary transition;
+  }
+}
+
 body {
   background: var(--background);
   font-family: Montserrat, sans-serif;
