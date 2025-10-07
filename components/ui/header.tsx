@@ -26,7 +26,7 @@ export default function Header({ font }: { font: string }) {
       dir={language === 'english' ? 'ltr' : 'rtl'}
       className={`${font} pb-3 border-b border-b-[#0000001A] flex justify-between`}
     >
-      <h2 className="text-primary text-[23px] font-medium">
+      <h2 className="text-primary text-sm md:text-[23px] font-medium">
         {language === 'english'
           ? translations.firstHeading.english
           : translations.firstHeading.arabic}
@@ -47,7 +47,7 @@ export default function Header({ font }: { font: string }) {
           العربية
         </button>
       </div>
-      <h3 className="text-black text-lg font-medium">
+      <h3 className="text-black text-sm md:text-lg font-medium">
         {' '}
         {language === 'english'
           ? translations.secondHeading.english
