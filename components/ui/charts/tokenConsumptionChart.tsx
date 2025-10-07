@@ -38,7 +38,7 @@ export default function TokenConsumptionChart({ data }: { data: dataType[] }) {
         <Bar
           dataKey="tokenConsumption"
           fill="#1B59F8CC"
-          barSize={9}
+          barSize={8}
           background={{ fill: '#F2F7FF' }}
           radius={[4, 4, 0, 0]}
         />

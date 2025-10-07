@@ -43,12 +43,14 @@ export default function ConversationTrendsChart({
         <Bar
           dataKey="customersValue"
           fill="#1B59F8CC"
+          barSize={8}
           background={{ fill: '#F2F7FF', radius: 4 }}
           radius={[4, 4, 0, 0]}
         />
         <Bar
           dataKey="leadsValue"
           fill="#56cc9d"
+          barSize={8}
           background={{ fill: '#F2F7FF', radius: 4 }}
           radius={[4, 4, 0, 0]}
         />
